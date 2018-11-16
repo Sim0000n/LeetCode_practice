@@ -1,5 +1,5 @@
 #include"tool.h"
-class Solution167 {
+class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
         vector<int>::iterator head = numbers.begin();
@@ -42,3 +42,8 @@ public:
         }
     }
 };
+int main(){
+    vector<int> test = {2,7,11,15};
+    test = Solution().twoSum(test,9);
+    return 0; 
+}
