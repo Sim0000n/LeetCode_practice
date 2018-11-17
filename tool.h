@@ -3,3 +3,4 @@
 #include<vector>
 using namespace std;
 class Solution167;
+class Solution1;
